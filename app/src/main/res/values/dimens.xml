@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="model_item_height">58dp</dimen>
+    <dimen name="model_item_image_size">50dp</dimen>
+    <dimen name="model_item_image_margin">4dp</dimen>
+    <dimen name="model_item_name_margin_start">16dp</dimen>
+    <dimen name="model_item_name_text_size">12sp</dimen>
+</resources>

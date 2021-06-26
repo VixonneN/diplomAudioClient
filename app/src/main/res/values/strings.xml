@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Audio Client</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_audio_library">AudioClient</string>
+
+    <string name="permission_storage_manager_denied">Read storage permission was
+            denied. Please consider granting it in order to access the Storage!</string>
+
+    <string name="permission_storage_manager_never_askagain">Read storage permission was
+            denied with never ask again.</string>
+
+    <string name="name">new audio book</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="full_time">99:99</string>
+    <string name="current_time">00:00</string>
+
+    <string name="fast_forward">Skip forward(sec)</string>
+    <string name="fast_back">Skip back(sec)</string>
+    <string name="play_speed">Play speed</string>
+    <string-array name="play_speed">
+        <item>1x</item>
+        <item>0,5x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string name="notification_channel_name">Player controls</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="tv1">Выбор книги</string>
+    <string name="to_Books">К книгам</string>
+    <string name="to_music">Выбор музыки</string>
+    <string name="musicTv">Выбор музыки</string>
+</resources>

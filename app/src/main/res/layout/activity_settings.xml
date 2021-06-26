@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/first_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fast_back"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="@dimen/model_item_name_text_size"/>
+    <TextView
+        android:id="@+id/second_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fast_forward"
+        app:layout_constraintTop_toBottomOf="@id/first_set"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="@dimen/model_item_name_text_size"/>
+    <TextView
+        android:id="@+id/third_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_speed"
+        app:layout_constraintTop_toBottomOf="@id/second_set"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="@dimen/model_item_name_text_size"/>
+    <TextView
+        android:id="@+id/fourth_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Night Mode"
+        app:layout_constraintTop_toBottomOf="@id/third_set"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="@dimen/model_item_name_text_size"/>
+
+    <Switch
+        android:id="@+id/switch_night_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        app:layout_constraintRight_toRightOf="@id/fourth_set"
+        app:layout_constraintBaseline_toBaselineOf="@id/fourth_set"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:inputType="numberDecimal"
+        android:layout_marginRight="20dp"
+        app:layout_constraintRight_toRightOf="@id/first_set"
+        app:layout_constraintBaseline_toBaselineOf="@id/first_set"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:inputType="numberDecimal"
+        android:layout_marginRight="20dp"
+        app:layout_constraintRight_toRightOf="@id/second_set"
+        app:layout_constraintBaseline_toBaselineOf="@id/second_set"/>
+
+    <Spinner
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:entries="@array/play_speed"
+        app:layout_constraintRight_toRightOf="@id/third_set"
+        app:layout_constraintBaseline_toBaselineOf="@id/third_set"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

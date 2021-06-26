@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF2828</color>
+    <color name="backColor">#e0e4ff</color>
+    <color name="buttonColor">#777777</color>
+    <color name="actButtonColor">#FF2828</color>
+    <color name="bookColor">#436A77</color>
+    <color name="blackColor">#000</color>
+
+    <color name="colorPrimaryNight">#6d6f79</color>
+    <color name="colorPrimaryDarkNight">#7f84a0</color>
+    <color name="colorAccentNight">#d78181</color>
+    <color name="backColorNight">#bfc2de</color>
+    <color name="buttonColorNight">#aca9a9</color>
+    <color name="actButtonColorNight">#d78181</color>
+</resources>
